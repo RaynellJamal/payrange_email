@@ -1,0 +1,155 @@
+<mjml>
+  <mj-head>
+    <mj-title>PayRange Receipt</mj-title>
+    <mj-preview>
+      Receipt from PayRange Inc. - Funds loaded in Mobile App
+    </mj-preview>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+        font-family: Helvetica, Arial;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .bg-white {
+        background-color: #ffffff;
+      }
+      .link-color{
+        color: #6B7FDC;
+        text-decoration: none;
+        
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F6F9FC">
+
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-spacer height="10px" />
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column width="200px">
+        <mj-image align="center" src="https://i.ibb.co/xs5Tr0s/logo.png" href="https://www.payrange.com/" alt="payrange.com" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Title -->
+    </mj-raw>
+    <mj-section padding="0" css-class="bg-white">
+      <mj-text align="center" font-size="24px" font-weight="normal" color="##515176">
+        Receipt from PayRange Inc.
+      </mj-text>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Date -->
+    </mj-raw>
+    <mj-section padding="20px" css-class="bg-white">
+      <mj-column>
+        <mj-text font-size="14px" font-weight="normal">
+          <p style="color:#8B9AAC"><b>AMOUNT PAID</b></p>
+          <p style="color:#9EA5B7">$10.00</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="14px" font-weight="normal">
+          <p style="color:#8B9AAC"><b>DATE PAID</b></p>
+          <p style="color:#9EA5B7">August 11, 2023</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="13.5px" font-weight="normal">
+          <p style="color:#8B9AAC"><b>PAYMENT METHOD</b></p>
+          <p style="color:#9EA5B7"><b>VISA </b>- - Apple Pay</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Summary -->
+    </mj-raw>
+    <mj-section padding="0" padding-left="20px" css-class="bg-white">
+      <mj-column>
+        <mj-text font-size="14px" color="#8B9AAC">
+          <p><b>SUMMARY</b></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px" css-class="bg-white">
+      <mj-column width="260px" padding="10px" border="0px" background-color="#F6F9FC">
+        <mj-text font-size="15px" color="#7F89A2">
+          Funds loaded in Mobile App
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px" padding="9.5px" border="0px" background-color="#F6F9FC">
+        <mj-text align="right" color="#7F89A2" font-size="16px">
+          $10.00
+        </mj-text>
+      </mj-column>
+
+      <mj-raw>
+        <!-- Divider -->
+      </mj-raw>
+      <mj-section padding="0" css-class="bg-white">
+        <mj-column width="510px">
+          <mj-divider align="center" border-width="1px" border-color="#DADFE5" container-background-color="#F6F9FC" />
+        </mj-column>
+      </mj-section>
+
+
+      <mj-column width="250px" padding="10px" border="0px" background-color="#F6F9FC">
+        <mj-text font-size="16px" color="#7F89A2">
+          <b>Amount charged</b>
+        </mj-text>
+      </mj-column>
+      <mj-column width="260px" padding="10px" border="0px" background-color="#F6F9FC">
+        <mj-text align="right" font-size="16px" color="#7F89A2">
+          <b>$10.00</b>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+        <!-- Divider -->
+    </mj-raw>
+    <mj-section padding="26px" css-class="bg-white">
+      <mj-column width="550px">
+        <mj-divider border-width="1px" border-color="#DADFE5" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="25px" css-class="bg-white">
+    <mj-column width="">
+        <mj-text align="left" font-size="16px" color="#8898AA">
+            Receipt #908d40d7-10e4-4899-966d-d6d60c6690d9
+        </mj-text>
+        <mj-spacer height="5px"/>
+        <mj-text align="left" font-size="16px" color="#6A7591">
+            If you have any questions, contact us at 
+            <a href="mailto:support@payrange.com" class="link-color">support@payrange.com</a>	
+        </mj-text>
+    </mj-column>
+    </mj-section>
+
+    <mj-raw>
+        <!-- Divider -->
+    </mj-raw>
+    <mj-section padding="5px" css-class="bg-white">
+      <mj-column width="550px">
+        <mj-divider border-width="1px" border-color="#DADFE5" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="25px" css-class="bg-white">
+    <mj-column>
+        <mj-text color="#BAC4CE" line-height="1.5" font-size="13.5px" font-weight="normal">
+           You’re receiving this email because you added funds to the PayRange mobile App or Kiosk which is used to make purchases with washers, dryers, vending machines, car washes, and more. 
+        </mj-text>
+    </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
